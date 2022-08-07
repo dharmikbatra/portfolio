@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/chatapp.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import preserve from "../../Assets/Projects/preserve.png";
 import simon from "../../Assets/Projects/simon.png";
+import lcsl from "../../Assets/Projects/lcsl.png";
+
 
 
 function Projects() {
@@ -56,17 +58,17 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={lcsl}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Leetcode Solutionare"
+              description="I have put all my coding solutions at one place for anyone who wants some help in coding"
+              ghLink="https://github.com/dharmikbatra/DSA/"
+              // demoLink="https://github.com/dharmikbatra/DSA/"
             />
           </Col>
-
+        {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
