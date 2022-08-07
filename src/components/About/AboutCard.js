@@ -25,7 +25,7 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Content Writting
+              <ImPointRight /> Content Writing
             </li>
             <li className="about-activity" onClick={openytb}>
               <ImPointRight /> Stand Up Comedy (can check!)
