@@ -1,8 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
+  const openytb = () => {
+    window.location.replace("https://youtu.be/RqlR5yBysnQ");
+  }
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -23,8 +28,8 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Content Writting
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Stand Up Comedy
+            <li className="about-activity" onClick={openytb}>
+              <ImPointRight /> Stand Up Comedy (can check!)
             </li>
           </ul>
 
