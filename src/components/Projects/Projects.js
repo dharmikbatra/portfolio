@@ -54,7 +54,7 @@ function Projects() {
               title="Simon Game"
               description="Online game where users needs to remember a random color pattern whose length increases with every level Build with HTML, CSS, Javascript and JQuery"
               ghLink="https://github.com/dharmikbatra/patgame/"
-              demoLink="https://dharmibatra.github.io/patgame"              
+              demoLink="https://dharmikbatra.github.io/patgame"              
             />
           </Col>
 
