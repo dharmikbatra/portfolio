@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import ytbImg from "../../Assets/youtube-icon.webp"
 
 function AboutCard() {
   const openytb = () => {
@@ -12,10 +13,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Dharmik Batra </span>
-            from <span className="purple"> Delhi, India.</span>
-            <br />I am a junior pursuing Computer Science in BITS
-            Pilani, Pilani Campus.
+            Hi everyone, I am <span className="purple">Dharmik Batra </span>
+            from <span className="purple"> Haryana, India.</span>
+            <br />I am a working professional at CISCO Systems and have a Computer Science degree from BITS Pilani
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,8 +27,8 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Content Writing
             </li>
-            <li className="about-activity" onClick={openytb}>
-              <ImPointRight /> Stand Up Comedy (can check!)
+            <li className="about-activity" >
+              <ImPointRight /> Stand Up Comedy <a href="/" onClick={openytb}><img src={ytbImg} alt="ytb" className="img-fluid" height={37} width={37}/></a>
             </li>
           </ul>
 

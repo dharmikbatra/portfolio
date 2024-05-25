@@ -10,6 +10,7 @@ import chatify from "../../Assets/Projects/chatapp.png";
 import preserve from "../../Assets/Projects/preserve.png";
 import simon from "../../Assets/Projects/simon.png";
 import lcsl from "../../Assets/Projects/lcsl.png";
+import tourify from "../../Assets/Projects/Tourify.png"
 
 
 
@@ -25,6 +26,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tourify}
+              isBlog={false}
+              title="Tourify"
+              description="Web application similar to Make My Trip where one can book the tours, review the tours. Admin can manage the bookings and add new tours very easily. It also has a integrated payment gateway "
+              ghLink="https://github.com/dharmikbatra/MMT-clone"
+              demoLink="https://mmt-clone.onrender.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

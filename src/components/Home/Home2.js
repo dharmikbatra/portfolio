@@ -15,11 +15,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF!
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+             I am a Software Engineer currently working at Cisco, specializing in developing the operating system(IOS-XR) for routers.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -30,7 +29,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                also in areas related to networking, {" "}
                 <b className="purple">
                   Startups and Venture Capitals.
                 </b>
