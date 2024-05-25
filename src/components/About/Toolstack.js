@@ -5,9 +5,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiCoronarenderer,
-  SiReactrouter,
-  SiExpress,
+  SiExpress
 } from "react-icons/si";
 
 function Toolstack() {
