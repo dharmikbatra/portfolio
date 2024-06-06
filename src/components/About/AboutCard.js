@@ -5,7 +5,7 @@ import ytbImg from "../../Assets/youtube-icon.webp"
 
 function AboutCard() {
   const openytb = () => {
-    window.location.replace("https://youtu.be/RqlR5yBysnQ");
+    window.location.replace("/about");
   }
 
   return (
@@ -28,7 +28,14 @@ function AboutCard() {
               <ImPointRight /> Content Writing
             </li>
             <li className="about-activity" >
-              <ImPointRight /> Stand Up Comedy <a href="/" onClick={openytb}><img src={ytbImg} alt="ytb" className="img-fluid" height={37} width={37}/></a>
+              <ImPointRight /> Stand Up Comedy 
+              <a 
+                rel="noreferrer"
+                target="_blank"
+                href="/https://youtu.be/8wabbfcnlu0" 
+                onClick={openytb}>
+                  <img src={ytbImg} alt="ytb" className="img-fluid" height={37} width={37}/>
+              </a>
             </li>
           </ul>
 

@@ -29,9 +29,9 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to networking, {" "}
+                also in areas related to {" "}
                 <b className="purple">
-                  Startups and Venture Capitals.
+                Networking, Startups and Venture Capitals.
                 </b>
               </i>
               <br />
@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> ExpressJS and NextJS</b>
               </i>
             </p>
           </Col>
@@ -75,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/DharmikBatra"
+                  href="https://x.com/IMDB___"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
