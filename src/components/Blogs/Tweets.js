@@ -9,7 +9,7 @@ function Tweets() {
             variant="primary"
             href="https://x.com/IMDB___"
             target="_blank"
-            style={{ position:'relative', width:'85%', marginTop:'30px'}}
+            style={{ position:'relative', width:'90%', marginTop:'4%'}}
           >
             &nbsp;Follow me on twitter
           </Button>

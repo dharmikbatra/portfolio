@@ -536,6 +536,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 2.5%;
 }
 
 /* --------- */
@@ -741,3 +742,16 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+#blogs {
+  color: #fff;
+  opacity: 80%;
+}
+
+#active-blogs{
+  color:#fff;
+  border-color: #700c86;
+  background-color:#934cce5e;
+  opacity: 80%;
+}
+
