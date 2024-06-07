@@ -1,5 +1,4 @@
 import React from "react";
-import { TwitterTweetEmbed } from "react-twitter-embed";
 import {Button } from "react-bootstrap";
 
 function Tweets() {
