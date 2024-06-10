@@ -742,6 +742,18 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.ytb-btn {
+  padding: 0% !important;
+  border: none !important;
+  background-color: transparent !important;
+  margin-left: 1%;
+
+}
+.ytb-img {
+  padding: 0% !important;
+  margin: 0% !important;
+  width:40px;
+}
 
 #blogs {
   color: #fff;

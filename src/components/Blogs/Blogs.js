@@ -6,7 +6,7 @@ import BlogsPage from './BlogsPage'
 
 
 function Blogs() {
-  const [isTweetsActive, setIsStateActive] = useState(false)
+  const [isTweetsActive, setIsStateActive] = useState(true)
 
   const changeToTweets =  (e) => {
     setIsStateActive(true)
