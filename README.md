@@ -1,3 +1,3 @@
-# portfolio website
+# Portfolio Website
 
-Link: http://dharmik.site
+Link: http://dharmikbatra.co.in

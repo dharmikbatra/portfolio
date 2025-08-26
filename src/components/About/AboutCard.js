@@ -17,7 +17,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi everyone, I am <span className="purple">Dharmik Batra </span>
             from <span className="purple"> Haryana, India.</span>
-            <br />I am a working professional at CISCO Systems and have a Computer Science degree from BITS Pilani
+            <br />I am a Software Developer at Toast Inc. and have a Computer Science degree from BITS Pilani
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

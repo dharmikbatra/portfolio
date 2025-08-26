@@ -17,20 +17,20 @@ function Tweets() {
     <Col md={4} className="project-card">
     <Stack>
             <TwitterTweetEmbed
-              tweetId={'1793868904508399915'}
+              tweetId={'1959142647161102414'}
               options={{theme: 'dark'}}
             />
             <TwitterTweetEmbed
-              tweetId={'1760923516759880034'}
-              options={{theme: 'dark'}}
-            />
+    tweetId={'1884305029714305350'}
+    options={{theme: 'dark'}}
+    />
             <TwitterTweetEmbed
-      tweetId={'1685934199767965696'}
+      tweetId={'1955862741798801707'}
       options={{theme: 'dark'}}
     />
     
     <TwitterTweetEmbed
-              tweetId={'1767872872905613549'}
+              tweetId={'1952622776172544488'}
               options={{theme: 'dark'}}
             />
   </Stack>
@@ -38,19 +38,19 @@ function Tweets() {
     <Col md={4} className="project-card">
     <Stack>
     <TwitterTweetEmbed
-              tweetId={'1577031495541104640'}
+              tweetId={'1904245401387208978'}
               options={{theme: 'dark'}}
             />
     <TwitterTweetEmbed
-      tweetId={'1691447528825507841'}
+      tweetId={'1909160215619993818'}
       options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-      tweetId={'1764903689020432828'}
+      tweetId={'1917239185351860498'}
       options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-      tweetId={'1644965653466726401'}
+      tweetId={'1919783990401335705'}
       options={{theme: 'dark'}}
     />
     
@@ -59,25 +59,25 @@ function Tweets() {
     <Col md={4} className="project-card">
     <Stack>
     <TwitterTweetEmbed
-      tweetId={'1777235134623682683'}
+      tweetId={'1933460836422726095'}
       options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-    tweetId={'1680128433781723138'}
+    tweetId={'1945443179781636499'}
     options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-    tweetId={'1650400157274370050'}
+    tweetId={'1886161044436918786'}
     options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-    tweetId={'1628721824820510720'}
+    tweetId={'1885398845703807326'}
     options={{theme: 'dark'}}
     />
     <TwitterTweetEmbed
-    tweetId={'1609270364391063553'}
-    options={{theme: 'dark'}}
-    />
+              tweetId={'1956268906844447101'}
+              options={{theme: 'dark'}}
+            />
   </Stack>
     </Col>
     </Row>

@@ -18,12 +18,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF!
             </h1>
             <p className="home-about-body">
-             I am a Software Engineer currently working at Cisco, specializing in developing the operating system(IOS-XR) for routers.
+             I am a Software Engineer at Toast, where I work on the Worldpay payment gateway as part of the funds transfer team.
               <br />
+              Previously, at Cisco, I specialized in building REST API backends and developing features for the IOS-XR router operating system.
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Java, and Kotlin </b>
               </i>
+              as well as other languages like
+              <i>
+                <b className="purple"> Python and JavaScript. </b>
+              </i> 
+
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -41,12 +47,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                 modern frameworks like
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> ExpressJS and NextJS</b>
+                <b className="purple"> Spring Boot and ExpressJS</b>
               </i>
             </p>
           </Col>
@@ -59,9 +65,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -75,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/IMDB___"
+                  href="https://x.com/im_db___"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
