@@ -767,3 +767,34 @@ button:focus {
   opacity: 80%;
 }
 
+
+/* Assuming this is in a CSS file associated with your ProjectCard,
+   e.g., ProjectCards.css or your main style.css */
+
+/* Find and REMOVE or comment out this old rule */
+/*
+.project-card-view .btn {
+  margin-top: auto; 
+  align-self: center; 
+  width: fit-content; 
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+*/
+
+/* ADD this new rule for the wrapper div */
+.card-buttons {
+  margin-top: auto; /* Pushes the div with buttons to the bottom */
+  text-align: center; /* Horizontally centers the buttons within the div */
+}
+
+/* You might want to ensure Card.Body is still a flex container */
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-card-view .card-text {
+  flex-grow: 1; /* Pushes the button container down */
+}

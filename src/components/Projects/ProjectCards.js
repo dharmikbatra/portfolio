@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { ImBlog } from "react-icons/im";
 
 function ProjectCards(props) {
   return (
@@ -13,26 +14,28 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+        {/* 1. Wrap buttons in a div for centering */}
+        <div className="card-buttons">
+          <Button variant="primary" href={props.ghLink} target="_blank">
+            {props.isBlog ? <ImBlog /> : <BsGithub />} &nbsp;
+            {props.isBlog ? "Read Blog" : "GitHub"}
           </Button>
-        )}
+          
+          {/* 2. Modified logic: Show this button if demoLink exists */}
+          {props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              {/* If it's a blog, show a GitHub icon. Otherwise, show the Demo icon. */}
+              {props.isBlog ? <BsGithub /> : <CgWebsite />} &nbsp;
+              {props.isBlog ? "GitHub" : "Demo"}
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );

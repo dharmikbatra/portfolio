@@ -7,7 +7,7 @@ function Tweets() {
     <>
     <Button
             variant="primary"
-            href="https://x.com/IMDB___"
+            href="https://x.com/im_db___"
             target="_blank"
             style={{ position:'relative', width:'90%', marginTop:'4%'}}
           >
@@ -83,7 +83,7 @@ function Tweets() {
     </Row>
     <Button
             variant="primary"
-            href="https://x.com/IMDB___"
+            href="https://x.com/im_db___"
             target="_blank"
             style={{ position:'relative', width:'90%', marginTop:'4%'}}
           >
