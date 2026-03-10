@@ -12,9 +12,6 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import {
-  SiPandas,
-} from "react-icons/si";
 
 function Techstack() {
   return (

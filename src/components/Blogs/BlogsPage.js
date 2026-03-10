@@ -1,9 +1,7 @@
 import React from "react";
 import {Button, Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import jokeblog from "../../Assets/jokeblog.png";
 import ccblog from "../../Assets/ccblog.png";
-import BlogCard from "./Blogcard";
 import ProjectCards from "../Projects/ProjectCards";
 
 function Tweets() {

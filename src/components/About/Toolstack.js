@@ -3,8 +3,7 @@ import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   SiIntellijidea,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku
+  SiPostman
 } from "react-icons/si";
 
 import { FaGitSquare, FaDocker } from "react-icons/fa";
