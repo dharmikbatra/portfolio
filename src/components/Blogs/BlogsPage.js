@@ -7,20 +7,19 @@ import ProjectCards from "../Projects/ProjectCards";
 function Tweets() {
   const blogs = [
   {
-    imgPath: jokeblog,
-    title: "How to Write a Joke: The Art of Premise, Setup, and Punchline",
-    description: "This article explains the essential structure of a joke—premise, setup, and punchline—and offers practical tips on timing, audience awareness, and engagement. It guides readers on crafting effective, surprising jokes that connect well with different audiences.",
-    isBlog: true,
-    ghLink: "https://medium.com/@batradharmik/how-to-write-a-joke-the-art-of-premise-setup-and-punchline-60dbcdf4b567",
-    demoLink: "https://github.com/your-username/project-repo-for-blog-1" // <-- Add link for the second button
-  },
-  {
     imgPath: ccblog,
     title: "How to Start a Cloud Kitchen in an Aggregator-Dominant Food Industry",
     description: "This article offers a practical guide to succeeding with a cloud kitchen in India's aggregator-dominated food industry. It emphasizes balancing reliance on delivery apps with building direct customer channels, strong branding, great food photos, and strategic marketing to ensure profitability.",
     isBlog: true,
     ghLink: "https://medium.com/@batradharmik/how-to-start-a-cloud-kitchen-in-an-aggregator-dominant-food-industry-0faf54e29164", // Link for "Read Blog" button
     demoLink: "https://github.com/your-username/project-repo-for-blog-2" // <-- Add link for the second button
+  },{
+    imgPath: jokeblog,
+    title: "How to Write a Joke: The Art of Premise, Setup, and Punchline",
+    description: "This article explains the essential structure of a joke—premise, setup, and punchline—and offers practical tips on timing, audience awareness, and engagement. It guides readers on crafting effective, surprising jokes that connect well with different audiences.",
+    isBlog: true,
+    ghLink: "https://medium.com/@batradharmik/how-to-write-a-joke-the-art-of-premise-setup-and-punchline-60dbcdf4b567",
+    demoLink: "https://github.com/your-username/project-repo-for-blog-1" // <-- Add link for the second button
   }
 ];
   return (

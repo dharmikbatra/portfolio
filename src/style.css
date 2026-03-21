@@ -551,35 +551,64 @@ button:focus {
   color: white !important;
 }
 
-.tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+.skills-list-wrapper {
+  padding-bottom: 35px;
+}
+
+.skills-group-row {
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.skills-group-title {
+  color: rgba(200, 137, 230, 0.95);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.skills-chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tools-chip-container {
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.skills-chip {
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  background-color: rgba(255, 255, 255, 0.03);
+  color: white;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.1;
+  transition: all 0.25s ease;
+}
+
+.skills-chip:hover {
+  border-color: rgba(197, 115, 230, 0.883);
+  background-color: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
+  .skills-group-row {
+    margin-bottom: 20px;
   }
-}
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
+  .skills-group-title {
+    margin-bottom: 10px;
+  }
+
+  .skills-chip {
+    font-size: 0.9rem;
+    padding: 7px 12px;
+  }
 }
 
 .quote-card-view {

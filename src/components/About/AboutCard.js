@@ -29,6 +29,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Content Writing
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Badminton
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Watching Bollywood Movies
+            </li>
             <li className="about-activity" >
               <ImPointRight /> Stand Up Comedy
               {/* <a
@@ -37,13 +43,13 @@ function AboutCard() {
                 >
                   <img src={ytbImg} alt="ytb" className="img-fluid" height={37} width={37}/>
               </a> */}
-              <Button
+              {/* <Button
                 href="https://youtu.be/8wabbfcnlu0"
                 target="_blank"
                 className="ytb-btn"
               >
                  <img src={ytbImg} alt="ytb" className="ytb-img"/>
-              </Button>
+              </Button> */}
             </li>
           </ul>
 
