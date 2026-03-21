@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import ytbImg from "../../Assets/youtube-icon.webp"
-import Button from "react-bootstrap/Button";
 
 
 function AboutCard() {
