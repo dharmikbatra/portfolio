@@ -893,3 +893,53 @@ button:focus {
   font-size: 0.95rem;
   line-height: 1.45;
 }
+
+.about-hobbies-card {
+  margin-top: 28px;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.about-hobbies-title {
+  color: #fff;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+}
+
+.about-hobbies-list {
+  margin: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 991px) {
+  .about-img {
+    padding-top: 40px !important;
+  }
+
+  .about-hobbies-card {
+    max-width: 480px;
+    margin: 24px auto 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-hobbies-title {
+    font-size: 1.05rem;
+  }
+
+  .about-hobbies-card {
+    padding: 0.9rem;
+    margin-top: 18px;
+  }
+
+  .about-timeline-content {
+    padding: 0.65rem 0.75rem;
+  }
+
+  .about-timeline-details {
+    font-size: 0.9rem;
+  }
+}

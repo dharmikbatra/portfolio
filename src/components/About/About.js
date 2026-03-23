@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { ImPointRight } from "react-icons/im";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
@@ -31,6 +32,28 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            <div className="about-hobbies-card">
+              <h4 className="about-hobbies-title">
+                Beyond Work <span className="purple">&amp; Code</span>
+              </h4>
+              <ul className="about-hobbies-list">
+                <li className="about-activity">
+                  <ImPointRight /> Travelling
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Content Writing
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Playing Badminton
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Watching Bollywood Movies
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Stand Up Comedy
+                </li>
+              </ul>
+            </div>
           </Col>
         </Row>
         <h1 className="project-heading">
