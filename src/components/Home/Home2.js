@@ -18,42 +18,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF!
             </h1>
             <p className="home-about-body">
-             I am a Software Engineer at Toast, where I work on the Worldpay payment gateway as part of the funds transfer team.
+              I am a second-time founder and a Computer Science graduate from
+              BITS Pilani, currently working as a Software Development Engineer
+              on the Payments team at Toast Inc.
               <br />
-              Previously, at Cisco, I specialized in building REST API backends and developing features for the IOS-XR router operating system.
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Java, and Kotlin </b>
-              </i>
-              as well as other languages like
-              <i>
-                <b className="purple"> Python and JavaScript. </b>
-              </i> 
-
+              I previously worked at Cisco Systems as both a Software
+              Engineering Intern and a full-time Software Engineer.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to {" "}
-                <b className="purple">
-                Networking, Startups and Venture Capitals.
-                </b>
-              </i>
+              My entrepreneurial journey began with a cloud kitchen startup,
+              where I gained hands-on experience managing high-burn operations,
+              hyper-local liquidity, and strict unit economics.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                 modern frameworks like
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Spring Boot and ExpressJS</b>
-              </i>
+              At Toast, I build and scale complex financial infrastructure and
+              high-volume payment flows.
+              <br />
+              <br />
+              Now, I am combining my operational grit with deep fintech
+              expertise to launch <b className="purple">NoStag</b> - a
+              trust-based, on-demand marketplace engineered to solve the
+              massive stag-entry friction in India&apos;s nightlife economy
+              through secure escrow and instant payout architecture.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
