@@ -36,7 +36,16 @@ function Home2() {
               <br />
               <br />
               Now, I am combining my operational grit with deep fintech
-              expertise to launch <b className="purple">NoStag</b> - a
+              expertise to launch{" "}
+              <a
+                href="https://www.nostag.in"
+                target="_blank"
+                rel="noreferrer"
+                className="purple"
+              >
+                NoStag
+              </a>{" "}
+              - a
               trust-based, on-demand marketplace engineered to solve the
               massive stag-entry friction in India&apos;s nightlife economy
               through secure escrow and instant payout architecture.
